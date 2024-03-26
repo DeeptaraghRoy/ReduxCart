@@ -24,7 +24,7 @@ function App() {
         })
       );
       const response = await fetch(
-        "https://react-advanced-reduxtoolkit-default-rtdb.firebaseio.com/cart.json",
+        "https://netlify-react-reduxtoolkit-default-rtdb.firebaseio.com/cart.json",
         {
           method: "PUT",
           body: JSON.stringify(cart),
